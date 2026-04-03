@@ -1,0 +1,44 @@
+{
+  "123456789012": {
+    "name": "iPhone 15",
+    "width_cm": 7.16,
+    "height_cm": 14.76,
+    "category": "Smartphone",
+    "brand": "Apple"
+  },
+  "234567890123": {
+    "name": "Samsung Galaxy S24",
+    "width_cm": 7.06,
+    "height_cm": 14.7,
+    "category": "Smartphone",
+    "brand": "Samsung"
+  },
+  "345678901234": {
+    "name": "Google Pixel 8",
+    "width_cm": 7.05,
+    "height_cm": 15.0,
+    "category": "Smartphone",
+    "brand": "Google"
+  },
+  "456789012345": {
+    "name": "Coca-Cola Can",
+    "width_cm": 6.6,
+    "height_cm": 12.3,
+    "category": "Beverage",
+    "brand": "Coca-Cola"
+  },
+  "567890123456": {
+    "name": "Standard A4 Book",
+    "width_cm": 21.0,
+    "height_cm": 29.7,
+    "category": "Book",
+    "brand": "Generic"
+  },
+  "9781234567897": {
+    "name": "Python Programming Book",
+    "width_cm": 19.0,
+    "height_cm": 23.5,
+    "category": "Book",
+    "brand": "Technical"
+  }
+}

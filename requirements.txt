@@ -1,0 +1,15 @@
+ultralytics
+opencv-python
+pillow
+numpy
+scipy
+imutils
+mediapipe==0.10.13
+reportlab
+pyttsx3
+pyzbar
+pandas
+openpyxl
+matplotlib
+cryptography
+plyer

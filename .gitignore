@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.csv
+screenshots/
+reports/
+exports/
+app_state.json
