@@ -17,5 +17,6 @@ AI-based real-time object measurement system using computer vision.
 ## ▶ Installation & Run
 
 1. **Install Dependencies:**
-   ```bash
-   pip install -r requirements.txt
+
+```bash
+pip install -r requirements.txt
