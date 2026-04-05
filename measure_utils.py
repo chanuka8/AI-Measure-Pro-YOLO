@@ -24,7 +24,7 @@ CLASS_SIZE_PRIORS = {
 
 PORTRAIT_OBJECTS = [
     "cell phone", "cellphone", "phone", "mobile phone",
-    "bottle", "cup", "person", "book", "remote", "mouse",
+    "bottle","Iphone", "cup", "person", "book", "remote", "mouse",
     "banana", "carrot", "toothbrush", "hair drier", "umbrella",
     "backpack", "vase", "wine glass", "mug", "water bottle"
 ]
