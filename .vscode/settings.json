@@ -1,15 +1,16 @@
 {
-    "python.defaultInterpreterPath": ".venv/Scripts/python.exe",
+    "python.defaultInterpreterPath": "venv/Scripts/python.exe",
     "python.terminal.activateEnvironment": true,
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python.analysis.extraPaths": [
-        "./.venv/Lib/site-packages",
-        "./.venv/Lib"
+        "./venv/Lib/site-packages",
+        "./venv/Lib"
     ],
     "python.analysis.diagnosticSeverityOverrides": {
         "reportMissingModuleSource": "warning",
         "reportMissingImports": "warning"
     },
     "python.linting.enabled": false,
-    "cSpell.enabled": false
+    "cSpell.enabled": false,
+    "python-envs.defaultEnvManager": "ms-python.python:system"
 }
