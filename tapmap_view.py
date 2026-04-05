@@ -24,7 +24,7 @@ class TapMapWindow:
             return
 
         self.window = tk.Toplevel()
-        self.window.title("🗺 TapMap View - Object Network Map")
+        self.window.title("TapMap View - Object Network Map")
         self.window.geometry("950x580")
         self.window.configure(bg="#0b1220")
         self.window.minsize(800, 500)
@@ -33,14 +33,14 @@ class TapMapWindow:
         title_frame = tk.Frame(self.window, bg="#0b1220")
         title_frame.pack(fill="x", padx=10, pady=5)
         
-        tk.Label(title_frame, text="🗺 Object Network Map", 
+        tk.Label(title_frame, text="Object Network Map", 
                 font=("Segoe UI", 14, "bold"), fg="#00e5ff", bg="#0b1220").pack(side="left")
         
         tk.Label(title_frame, text="TapMap Style Visualization", 
                 font=("Segoe UI", 10), fg="#7f8ea3", bg="#0b1220").pack(side="left", padx=10)
         
         # Refresh button
-        refresh_btn = tk.Button(title_frame, text="🔄 Refresh", command=self.refresh,
+        refresh_btn = tk.Button(title_frame, text="Refresh", command=self.refresh,
                                bg="#21262d", fg="white", font=("Segoe UI", 9))
         refresh_btn.pack(side="right", padx=5)
         
@@ -131,7 +131,7 @@ class TapMapWindow:
             if self.canvas:
                 self.canvas.create_text(
                     self.center_x, self.center_y + 120,
-                    text="📡 No active objects detected\nPoint camera at objects to see them here",
+                    text="No active objects detected\nPoint camera at objects to see them here",
                     fill="#7f8ea3",
                     font=("Segoe UI", 10),
                     justify="center"
@@ -197,7 +197,7 @@ class TapMapWindow:
             
             # Dimensions if available
             if width != "?" and height != "?":
-                dim_text = f"{width}×{height}"
+                dim_text = f"{width}x{height}"
                 self.canvas.create_text(x, y + 16, text=dim_text, 
                                         fill="#7f8ea3", font=("Segoe UI", 7))
             
@@ -210,10 +210,10 @@ class TapMapWindow:
 
         # Update info label
         self.info_label.config(
-            text=f"📊 Active Objects: {len(measurements_list)} | "
-                 f"🟢 High Acc: {sum(1 for m in measurements_list if m.get('accuracy') == 'High')} | "
-                 f"🟡 Medium: {sum(1 for m in measurements_list if m.get('accuracy') == 'Medium')} | "
-                 f"🔴 Low: {sum(1 for m in measurements_list if m.get('accuracy') == 'Low')}"
+            text=f"Active Objects: {len(measurements_list)} | "
+                 f"High Acc: {sum(1 for m in measurements_list if m.get('accuracy') == 'High')} | "
+                 f"Medium: {sum(1 for m in measurements_list if m.get('accuracy') == 'Medium')} | "
+                 f"Low: {sum(1 for m in measurements_list if m.get('accuracy') == 'Low')}"
         )
 
     def refresh(self):
